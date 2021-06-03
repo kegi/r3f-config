@@ -1,0 +1,63 @@
+{
+  "name": "r3f-config",
+  "version": "1.0.0",
+  "description": "A sandbox config ui tool like dat.GUI for React Three Fiber",
+  "author": "kegi",
+  "license": "MIT",
+  "repository": "kegi/r3f-config",
+  "source": "src/index.tsx",
+  "main": "dist/index.js",
+  "_module": "dist/index.module.js",
+  "_unpkg": "dist/hooks.umd.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "gh-pages": "^2.2.0",
+    "microbundle": "^0.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn microbundle --format=cjs,modern --jsx=React.createElement --sourcemap=false",
+    "start": "yarn microbundle watch --format=cjs,modern --jsx=React.createElement --sourcemap=false",
+    "test": "react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom",
+    "lint": "eslint .",
+    "predeploy": "cd example && yarn install && yarn run build",
+    "deploy": "gh-pages -d example/build"
+  }
+}
