@@ -11,11 +11,12 @@
     "@types/node": "link:../node_modules/@types/node",
     "@types/react": "link:../node_modules/@types/react",
     "@types/react-dom": "link:../node_modules/@types/react-dom",
+    "eslint-plugin-standard-cra": "link:../node_modules/eslint-plugin-standard-cra",
+    "r3f-config": "link:..",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
-    "typescript": "link:../node_modules/typescript",
-    "r3f-config": "link:.."
+    "typescript": "link:../node_modules/typescript"
   },
   "eslintConfig": {
     "extends": [

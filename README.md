@@ -7,24 +7,12 @@
 ## Install
 
 ```bash
-npm install --save r3f-config
+yarn add r3f-config
 ```
 
 ## Usage
-
-```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'r3f-config'
-import 'r3f-config/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
+...
 
 ## License
 
-MIT © [kegi](https://github.com/kegi)
+MIT
