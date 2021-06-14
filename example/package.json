@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^6.1.1",
     "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "link:../node_modules/@testing-library/react",
     "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
@@ -11,11 +12,15 @@
     "@types/node": "link:../node_modules/@types/node",
     "@types/react": "link:../node_modules/@types/react",
     "@types/react-dom": "link:../node_modules/@types/react-dom",
+    "@types/three": "^0.129.1",
+    "beautiful-react-hooks": "^0.35.0",
     "eslint-plugin-standard-cra": "link:../node_modules/eslint-plugin-standard-cra",
     "r3f-config": "link:..",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.129.0",
     "typescript": "link:../node_modules/typescript"
   },
   "eslintConfig": {

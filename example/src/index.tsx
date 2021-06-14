@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import ReactDOM from 'react-dom'
+import { ConfigProvider } from 'r3f-config'
+
+import App from './components/App'
+import './styles.css'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ConfigProvider open>
     <App />
-  </React.StrictMode>,
+  </ConfigProvider>,
   document.getElementById('root')
-);
-
+)
