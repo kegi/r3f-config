@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAAA,UACI,QACJ,CAEA,6BACI,WAAY,CACZ,YACJ","file":"main.27990a95.chunk.css","sourcesContent":["html, body {\n    margin: 0;\n}\n\n.canvas-fullscreen-container {\n    width: 100vw;\n    height: 100vh;\n}\n"]}
